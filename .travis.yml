@@ -1,0 +1,8 @@
+language: node_js
+deploy:
+  provider: heroku
+  api_key:
+    secure: IRq0wIK2QwIJxndFr8R096c9HdIMdgZjOtZougSdpubDyJc0UzoIzh4wf6eWr72DRVbxFlLd1NUldxBckkYJxZjOzAjEzpo5GyUCvKeR8IpLnw0yVdh0sJ1/OljXZpDmi9MoIefSecC/kF7mXFP8X9Kgkbmsa4wf6s3+7tSuICHbpHtgBMSLX0pnGcH+rD0DVyiinbQwPWvOMg0ndCbgRxfDZ108hHdfYhDKVrKzq/Q23J1LaXuz4bdIIDEexktG0wuJp+04ThsDkPNG3YgCG+MNosuyHg9Toc8JCJtQrOkoNuv+11AoTxozsC8KY+UVzjttgMtg6dBm0rPVG9nlXojJQLN0KI8ooE6IaXoawAKlYn6FdD+6lPJ2y0xsxQKnc3qL9+gup8iwWQiWUL3X3oBf/wTCFZ+aVgdLP/e+EpW1Ig4+QGoxMhUaKgqZP+TBUGXt2YKBqMWcMChMe4cxyUOLlO0Fs+driPGy6aSOCHzel63CHZTrUmigiLWwKVLGWs2ia+udxxPOftIM/qWlsKf72/jHXJxg7rxDD0URUl+NccXfkSCiguZcOfP5fyt3gwSrTuztX/E0gjUoeSAWqaZM4bb6nH8KgAZ4ebfdtawR1LuwwpGdBaYWngGZXnU6UjgF+XftzL+uB/1/7IpCq1/kIiK9fQeYNefrSLWW1n4=
+  app: enigmatic-taiga-47620
+  on:
+    repo: raysmithdev/server-deploy-testing
