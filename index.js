@@ -8,6 +8,10 @@ const {dbConnect} = require('./db-mongoose');
 
 const app = express();
 
+app.get('/api', (req, res) => {
+  res.send("Hello from api")
+})
+
 app.use(
     morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev', {
         skip: (req, res) => process.env.NODE_ENV === 'test'
